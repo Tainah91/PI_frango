@@ -28,3 +28,6 @@ from .views import area_view
 from .models import competencia_model
 from .models import tipo_model
 from .models import login_usuario_model
+from .models import conteudo_model
+from .models import modulo_model
+from .models import disciplina_materia
