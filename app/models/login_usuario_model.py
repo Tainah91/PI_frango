@@ -7,4 +7,5 @@ class LogUsuario(db.Model):
     datadenascimento = db.Column(db.Date)
     cpf = db.Column(db.String(11))
     email = db.Column(db.String(60))
+    senha = db.Column(bd.String(60))
     fk_tipo_id = db.Column(db.Integer,db.ForeignKey('tipo.id'))

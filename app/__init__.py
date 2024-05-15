@@ -31,3 +31,7 @@ from .models import login_usuario_model
 from .models import conteudo_model
 from .models import modulo_model
 from .models import disciplina_materia
+from .models import administrador_model
+from .models import login_model
+from .models import pagamento_model
+from .models import plano_model
